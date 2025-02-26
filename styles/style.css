@@ -1,0 +1,163 @@
+:root {
+    --color-dark1:     #3f2f35;
+    --color-dark2:     #604d44;
+    --color-dark3:     #787963;
+    --color-primary:   #92b1a2;
+    --color-highlight: #92b1a2;
+}
+
+body {
+    background-color: var(--color-dark1);
+}
+
+img {
+    width: 50%;
+    align-self: center;
+}
+
+h1.heading1 {
+    font-family: "Playwrite IT Moderna";
+    font-size: 104px;
+    font-weight: 400;
+    color: var(--color-highlight);
+    opacity: 100%;
+    padding-left: 40px;
+    border-width: 0px;
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+
+h1.heading2 {
+    font-family: "Anton";
+    font-size: 62px;
+    font-weight: 400;
+    color: var(--color-highlight);
+    opacity: 70%;
+    padding-left: 40px;
+    border-width: 0px;
+    margin-bottom: -30px;
+}
+
+h1.heading3 {
+    font-family: "Sigmar";
+    font-size: 34px;
+    font-weight: 400;
+    color: var(--color-highlight);
+    opacity: 20%;
+    padding-left: 40px;
+    border-width: 0px;
+    margin-bottom: -5px;
+}
+
+h1.heading4 {
+    font-family: "Moon Dance", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-highlight);
+    opacity: 25%;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    border-width: 0px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: var(--color-primary);
+    font-family: "Lora", bold;
+    font-weight: 100;
+    font-size: 36px;
+    margin-left: 22px;
+    font-weight: 800;
+}
+
+h2.survey {
+    color: #e5b6bb;
+}
+
+h3.author {
+    color: var(--color-highlight);
+    font-family: "Phudu";
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 42px;
+    margin-top: -120px;
+}
+
+h3.normal {
+    color: #e2d188;
+    font-family: "Lora", bold;
+    font-weight: 100;
+    font-size: 28px;
+    margin-left: 22px;
+    font-weight: 800;
+}
+
+p {
+    color: #e5e8a1;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 22px;
+    margin-left: 22px;
+    word-wrap: break-word;
+    max-width: 88%;
+}
+
+div.center {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+div.block {
+    background-color: var(--color-dark2);
+    position: sticky;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -20px;
+    margin-left: -10px;
+    z-index: -1;
+    /* outline-style: calc(sin(x)); */
+}
+
+figcaption {
+    font-family: "Lora";
+    font-size: 20px;
+    font-weight: 500;
+    color: #e5e8a1;
+    margin-top: 10px;
+}
+
+fieldset {
+    margin-bottom: 12px;
+    border-color: #e5b6bb;
+}
+
+legend {
+    font-family: "Anton";
+    font-weight: lighter;
+    color: #e5b6bb;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+label {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Anton";
+    font-weight: lighter;
+    color: #e5b6bb;
+}
+
+.red {
+    /* Debug purposes */
+    background-color: red;
+}
+
+.green {
+    /* Debug purposes */
+    background-color: green;
+}
+
+.blue {
+    /* Debug purposes */
+    background-color: blue;
+}
