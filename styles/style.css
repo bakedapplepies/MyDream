@@ -1,13 +1,16 @@
 :root {
-    --color-dark1:     #3f2f35;
-    --color-dark2:     #604d44;
-    --color-dark3:     #787963;
-    --color-primary:   #92b1a2;
-    --color-highlight: #92b1a2;
+    --color-dark1:  #0b0c15;
+    --color-dark2:  #15121e;
+    --color-dark3:  #241b28;
+    --color-dark4:  #372632;
+    --color-light1: #4f343d;
+    --color-light2: #694749;
+    --color-light3: #875f58;
+    --color-light4: #a57c69;
 }
 
 body {
-    background-color: var(--color-dark1);
+    background-color: var(--color-dark3);
 }
 
 img {
@@ -15,11 +18,15 @@ img {
     align-self: center;
 }
 
+img.ai {
+    background-color: transparent;
+}
+
 h1.heading1 {
     font-family: "Playwrite IT Moderna";
     font-size: 104px;
     font-weight: 400;
-    color: var(--color-highlight);
+    color: var(--color-light4);
     opacity: 100%;
     padding-left: 40px;
     border-width: 0px;
@@ -31,8 +38,8 @@ h1.heading2 {
     font-family: "Anton";
     font-size: 62px;
     font-weight: 400;
-    color: var(--color-highlight);
-    opacity: 70%;
+    color: var(--color-light3);
+    opacity: 50%;
     padding-left: 40px;
     border-width: 0px;
     margin-bottom: -30px;
@@ -42,7 +49,7 @@ h1.heading3 {
     font-family: "Sigmar";
     font-size: 34px;
     font-weight: 400;
-    color: var(--color-highlight);
+    color: var(--color-light2);
     opacity: 20%;
     padding-left: 40px;
     border-width: 0px;
@@ -53,7 +60,7 @@ h1.heading4 {
     font-family: "Moon Dance", serif;
     font-size: 18px;
     font-weight: 400;
-    color: var(--color-highlight);
+    color: var(--color-light1);
     opacity: 25%;
     padding-left: 40px;
     padding-bottom: 80px;
@@ -61,21 +68,24 @@ h1.heading4 {
     margin-bottom: 50px;
 }
 
-h2 {
-    color: var(--color-primary);
-    font-family: "Lora", bold;
+h2.paracap {
+    color: var(--color-light4);
+    font-family: "Phudu", bold;
     font-weight: 100;
-    font-size: 36px;
+    font-size: 68px;
     margin-left: 22px;
     font-weight: 800;
+    margin-bottom: -2px;
 }
 
-h2.survey {
+h2.github {
     color: #e5b6bb;
+    font-family: "Phudu", bold;
+    margin-bottom: 6px;
 }
 
 h3.author {
-    color: var(--color-highlight);
+    color: var(--color-light4);
     font-family: "Phudu";
     font-weight: 400;
     font-size: 18px;
@@ -92,14 +102,19 @@ h3.normal {
     font-weight: 800;
 }
 
-p {
-    color: #e5e8a1;
-    font-family: "Roboto";
-    font-weight: 300;
+p.content {
+    color: var(--color-light4);
+    font-family: "Lora";
+    font-weight: 600;
     font-size: 22px;
-    margin-left: 22px;
+    margin-left: 48px;
     word-wrap: break-word;
-    max-width: 88%;
+    max-width: 100%;
+}
+
+a.github {
+    color: #e5b6bb;
+    font-family: "Playwrite IT Moderna";
 }
 
 div.center {
@@ -108,22 +123,19 @@ div.center {
 }
 
 div.block {
-    background-color: var(--color-dark2);
-    position: sticky;
+    background-color: var(--color-dark1);
+    position: fixed;
     width: 100vw;
-    height: 100vh;
-    margin-top: -20px;
-    margin-left: -10px;
+    height: 100%;
     z-index: -1;
-    /* outline-style: calc(sin(x)); */
 }
 
-figcaption {
-    font-family: "Lora";
+figcaption.ai {
+    /* background-color: red; */
+    width: 100%;
+    font-family: "Phudu";
     font-size: 20px;
-    font-weight: 500;
-    color: #e5e8a1;
-    margin-top: 10px;
+    color: var(--color-light4);
 }
 
 fieldset {
